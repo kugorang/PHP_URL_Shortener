@@ -1,30 +1,31 @@
 body
 {
-  font: 0.9em Tahoma, sans-serif;
+  font-size: 0.9em;         /* 폰트 크기 - 0.9em */
+  font-family: "맑은 고딕"; /* 폰트 종류 - 맑은 고딕 */
 }
 
-.title
+.title                      /* title 클래스 */;
 {
-  font-weight: normal;
+  font-weight: normal;      /* 글꼴 굵기 - 기본값 */
 }
 
-.container
+.container                  /* container 클래스 */
 {
-  width:100%;
-  max-width:600px;
-  text-align:center;
-  margin:0 auto;
+  width: 100%;              /* 너비 - 100% */
+  max-width: 600px;         /* 최대 너비 - 600px */
+  text-align: center;       /* 글자 정렬 - 가운데 */
+  margin: 0 auto;           /* 바깥쪽 여백 - 컨테이너 안에서 가로 중앙에 오게 함. */
 }
 
-input
+input                       /* 입력 요소 */
 {
-  padding:10px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  margin: 0;
+  padding: 10px;            /* 안쪽 여백 - 상하좌우 10px*/
+  background-color: #fff;   /* 배경 - 흰색 */
+  border: 1px solid #ccc;   /* 테두리 - 회색 1px */
+  margin: 0;                /* 바깥쪽 여백 - 0 */
 }
 
-input[type="url"]
+input[type="url"]           /* type이 url인 입력 요소 */
 {
-  width:300px;
+  width: 300px;             /* 너비 - 300px */
 }
