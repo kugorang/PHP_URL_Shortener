@@ -8,7 +8,7 @@ if (isset($_GET['code']))
   // Shortener를 만든 후
   $s = new Shortener;
 
-  // url이 있는지 확인한다.
+  // url이 DB에 있는지 확인한다.
   if ($url = $s->getUrl($_GET['code']))
   {
     // url이 있다면 그 url로 리다이렉트 후

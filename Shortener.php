@@ -26,9 +26,10 @@ class Shortener
     // url에 포함된 공백을 제거한다.
     $url = trim($url);
 
-    // 만약
+    // 만약 url이 유효하지 않다면
     if (!filter_var($url, FILTER_VALIDATE_URL))
     {
+      // 빈 값을 반환합니다.
       return '';
     }
 
